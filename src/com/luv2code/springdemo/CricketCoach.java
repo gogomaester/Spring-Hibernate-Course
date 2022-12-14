@@ -12,7 +12,6 @@ public class CricketCoach implements Coach {
 
 	// create no arg constructor
 	public CricketCoach() {
-		System.out.println("CricketCoach: Inside no arg constructor.");
 	}
 	
 	// Setters
@@ -26,7 +25,6 @@ public class CricketCoach implements Coach {
 	
 	// setter method for injections
 	public void setFortuneService(FortuneService theFortuneService) {
-		System.out.println("CricketCoach: Inside the setter method. setFortuneService");
 		this.fortuneService = theFortuneService;
 	}
 	
